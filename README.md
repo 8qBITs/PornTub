@@ -2,6 +2,8 @@
 
 PornTub is a simple Express.js web application that allows users to browse videos from the `/videos` directory and watch them directly in the browser. The application automatically generates thumbnails for the videos using FFmpeg, which are displayed on the main page. Clicking on a thumbnail will open the video for viewing.
 
+Simply put, PornTub is an Express.js-based web application designed for listing and streaming various types of videos. While its true intention is evident from the name itself, it is capable of indexing and displaying all MP4 and MKV video formats. Additionally, it efficiently streams videos in chunks asynchronously, as expected from a web application.
+
 [![GitHub issues](https://img.shields.io/github/issues/8qBITs/PornTub?style=flat&logo=github&color=blue)](https://github.com/8qBITs/PornTub/issues)
 [![GitHub forks](https://img.shields.io/github/forks/8qBITs/PornTub?style=flat&logo=github&color=green)](https://github.com/8qBITs/PornTub/network)
 [![GitHub stars](https://img.shields.io/github/stars/8qBITs/PornTub?style=flat&logo=github&color=yellow)](https://github.com/8qBITs/PornTub/stargazers)
@@ -10,16 +12,13 @@ PornTub is a simple Express.js web application that allows users to browse video
 
 ## Features
 
-- Browse videos from the `/videos` directory.
-- Thumbnails generation for videos using FFmpeg.
-- Watch videos directly in the browser.
-- An endpoint to scan the library and generate a video database.
+- Index and stream videos from `/videos` directory.
+- Thumbnails/Clip generation for videos using FFmpeg.
 
 ## Prerequisites
 
 - Node.js
 - FFmpeg
-- (Optional) Nodemon
 
 ## Installation Instructions
 
@@ -36,27 +35,15 @@ PornTub is a simple Express.js web application that allows users to browse video
  npm install
  ```
 
-4. **(Optional) Install Nodemon**: Nodemon is a utility that monitors for any changes in your source code and automatically restarts the server. This is useful for development. To install Nodemon globally, run:
-
- ```
- npm install -g nodemon
- ```
-
 5. **Generate Video Database**: Before you can browse videos, you need to scan the `/videos` directory and generate a video database. Start the server (instructions below) and then navigate to the following URL in your web browser:
 
  ```
- http://localhost:3000/scanLibrary
+ http://localhost:6969/scanLibrary
  ```
 
 This will generate the video database. Note that in future versions, this function will be replaced by a microservice.
 
-6. **Start the Server**: You can now start the server. If you have Nodemon installed, use:
-
- ```
- nodemon server
- ```
-
-Otherwise, use:
+6. **Start the Server**: You can now start the server use:
 
  ```
  node server
