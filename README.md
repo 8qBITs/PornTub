@@ -1,7 +1,5 @@
 # PornTub
 
-PornTub is a simple Express.js web application that allows users to browse videos from the `/videos` directory and watch them directly in the browser. The application automatically generates thumbnails for the videos using FFmpeg, which are displayed on the main page. Clicking on a thumbnail will open the video for viewing.
-
 Simply put, PornTub is an Express.js-based web application designed for listing and streaming various types of videos. While its true intention is evident from the name itself, it is capable of indexing and displaying all MP4 and MKV video formats. Additionally, it efficiently streams videos in chunks asynchronously, as expected from a web application.
 
 [![GitHub issues](https://img.shields.io/github/issues/8qBITs/PornTub?style=flat&logo=github&color=blue)](https://github.com/8qBITs/PornTub/issues)
