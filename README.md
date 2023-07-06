@@ -5,6 +5,8 @@ PornTub is a simple Express.js web application that allows users to browse video
 [![GitHub issues](https://img.shields.io/github/issues/8qBITs/PornTub?style=flat&logo=github&color=blue)](https://github.com/8qBITs/PornTub/issues)
 [![GitHub forks](https://img.shields.io/github/forks/8qBITs/PornTub?style=flat&logo=github&color=green)](https://github.com/8qBITs/PornTub/network)
 [![GitHub stars](https://img.shields.io/github/stars/8qBITs/PornTub?style=flat&logo=github&color=yellow)](https://github.com/8qBITs/PornTub/stargazers)
+[![License](https://img.shields.io/github/license/8qBITs/PornTub?style=flat&color=lightgrey)](https://github.com/8qBITs/PornTub/blob/master/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/8qBITs/PornTub?style=flat&logo=git&color=brightgreen)](https://github.com/8qBITs/PornTub/commits/master)
 
 ## Features
 
