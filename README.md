@@ -61,7 +61,7 @@ Otherwise, use:
 ## Future Improvements
 
 - Replacing the scan library route with a dedicated microservice that would scan for new videos.
-- Saearch index
+- Search index
 - Pagination
 - Scylla/Mongo implementation to replace file system based database.
 
