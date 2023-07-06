@@ -56,15 +56,14 @@ Otherwise, use:
  node server
  ```
 
-7. **Access the Application**: Open your web browser and go to `http://localhost:3000` to access the application and start browsing videos.
+7. **Access the Application**: Open your web browser and go to `http://localhost:6969` to access the application and start browsing videos.
 
 ## Future Improvements
 
-- Replacing the scan library function with a dedicated microservice.
-
-## Contributing
-
-Feel free to submit issues or pull requests if you have suggestions or improvements.
+- Replacing the scan library route with a dedicated microservice that would scan for new videos.
+- Saearch index
+- Pagination
+- Scylla/Mongo implementation to replace file system based database.
 
 ## License
 
